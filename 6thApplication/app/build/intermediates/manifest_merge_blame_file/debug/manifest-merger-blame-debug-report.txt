@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.a6thapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->[androidx.media:media:1.4.1] /Users/ryotaroinui/.gradle/caches/transforms-3/5cf2f4a9d112e81f3ba5ce10fce0abf2/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
+12        <intent>
+12-->[androidx.media:media:1.4.1] /Users/ryotaroinui/.gradle/caches/transforms-3/5cf2f4a9d112e81f3ba5ce10fce0abf2/transformed/media-1.4.1/AndroidManifest.xml:25:9-27:18
+13            <action android:name="android.media.browse.MediaBrowserService" />
+13-->[androidx.media:media:1.4.1] /Users/ryotaroinui/.gradle/caches/transforms-3/5cf2f4a9d112e81f3ba5ce10fce0abf2/transformed/media-1.4.1/AndroidManifest.xml:26:13-79
+13-->[androidx.media:media:1.4.1] /Users/ryotaroinui/.gradle/caches/transforms-3/5cf2f4a9d112e81f3ba5ce10fce0abf2/transformed/media-1.4.1/AndroidManifest.xml:26:21-76
+14        </intent>
+15    </queries>
+16
+17    <application
+17-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:5:5-27:19
+18        android:allowBackup="true"
+18-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] /Users/ryotaroinui/.gradle/caches/transforms-3/0a679862f6c55d82fb9a949f1fd4603f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.6thApplication" >
+26-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:11:9-52
+27        <activity
+27-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:12:9-14:40
+28            android:name="com.example.a6thapplication.MainActivity3"
+28-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:13:13-42
+29            android:exported="false" />
+29-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:14:13-37
+30        <activity
+30-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.a6thapplication.MainActivity2"
+31-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:16:13-42
+32            android:exported="false" />
+32-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:17:13-37
+33        <activity
+33-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:18:9-26:20
+34            android:name="com.example.a6thapplication.MainActivity"
+34-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:19:13-41
+35            android:exported="true" >
+35-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:20:13-36
+36            <intent-filter>
+36-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:21:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:22:17-69
+37-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:22:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:24:17-77
+39-->/Users/ryotaroinui/AndroidStudioProjects/6thApplication/app/src/main/AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/ryotaroinui/.gradle/caches/transforms-3/80b528038d14456a13dc877d02defa8f/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/ryotaroinui/.gradle/caches/transforms-3/80b528038d14456a13dc877d02defa8f/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+45            android:authorities="com.example.a6thapplication.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/ryotaroinui/.gradle/caches/transforms-3/80b528038d14456a13dc877d02defa8f/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/ryotaroinui/.gradle/caches/transforms-3/80b528038d14456a13dc877d02defa8f/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/ryotaroinui/.gradle/caches/transforms-3/80b528038d14456a13dc877d02defa8f/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/ryotaroinui/.gradle/caches/transforms-3/80b528038d14456a13dc877d02defa8f/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/ryotaroinui/.gradle/caches/transforms-3/80b528038d14456a13dc877d02defa8f/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ryotaroinui/.gradle/caches/transforms-3/a711bc5df5a379db74c9c6d9cac91024/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ryotaroinui/.gradle/caches/transforms-3/a711bc5df5a379db74c9c6d9cac91024/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ryotaroinui/.gradle/caches/transforms-3/a711bc5df5a379db74c9c6d9cac91024/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>
