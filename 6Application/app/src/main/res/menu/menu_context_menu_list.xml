@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ContextDetails"
+        android:title="詳細" />
+
+    <item
+        android:id="@+id/ContextUpdate"
+        android:title="更新" />
+
+    <item
+        android:id="@+id/ContextDelete"
+        android:title="削除" />
+
+</menu>
