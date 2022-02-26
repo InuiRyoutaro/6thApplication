@@ -37,9 +37,6 @@ class MainActivity2 : AppCompatActivity() {
         }
         return returnVal
     }
-//    fun onBackButtonClick(view: View){
-//        finish()
-//    }
 }
 
 

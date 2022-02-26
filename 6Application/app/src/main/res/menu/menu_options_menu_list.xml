@@ -3,13 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/main_menu"
-        android:title="メインメニュー"
-        app:showAsAction="never" />
-
+        android:id="@+id/menuListOptionMain"
+        app:showAsAction="never"
+        android:title="@string/menu_list_options_main"/>
     <item
-        android:id="@+id/side_menu"
-        android:title="サイドメニュー"
-        app:showAsAction="never" />
-
+        android:id="@+id/menuListOptionSide"
+        app:showAsAction="never"
+        android:title="@string/menu_list_options_side"/>
 </menu>

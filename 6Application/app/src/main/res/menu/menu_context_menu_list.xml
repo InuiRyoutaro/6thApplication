@@ -2,15 +2,9 @@
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/ContextDetails"
-        android:title="詳細" />
-
+        android:id="@+id/menuListContextDesc"
+        android:title="@string/menu_list_context_desc"/>
     <item
-        android:id="@+id/ContextUpdate"
-        android:title="更新" />
-
-    <item
-        android:id="@+id/ContextDelete"
-        android:title="削除" />
-
+        android:id="@+id/menuListContextOrder"
+        android:title="@string/menu_list_context_order"/>
 </menu>

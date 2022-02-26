@@ -37,9 +37,9 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onBackButtonClick"
-        android:text="メニューリストに戻る"/>
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="onBackButtonClick"-->
+<!--        android:text="メニューリストに戻る"/>-->
 </LinearLayout>

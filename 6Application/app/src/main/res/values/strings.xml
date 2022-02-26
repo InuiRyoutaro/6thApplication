@@ -1,7 +1,27 @@
 <resources>
-    <string name="app_name">6Application</string>
+    <string name="app_name">居酒屋キタウラ</string>
+    <string name="tv_menu_unit">円</string>
+    <string name="menu_list_options_main">メイン</string>
+    <string name="menu_list_options_side">サイド</string>
+    <string name="menu_list_context_desc">説明を表示</string>
+    <string name="menu_list_context_order">ご注文</string>
+    <string name="menu_list_context_header">操作を選んでください。</string>
     <string name="tv_thx_title">注文完了</string>
-    <string name="tv_thx_desc">ご注文ありがとうございます。</string>
-    <string name="bt_thx_back">リストに戻る</string>
+    <string name="tv_thx_desc">以下のメニューのご注文を受け付けました。\nご注文ありがとうございます。</string>
 
+    //ダイアログについて
+    //リストビューをクリックした時に表示されるボックス
+    <string name="dialog_title">注文の確認</string>
+    <string name="dialog_msg">選択した商品を注文しますか？</string>
+    <string name="dialog_btn_ok">注文します</string>
+    <string name="dialog_btn_ng">選び直す</string>
+
+    //選択した後、下部に表示されるもの
+    <string name="dialog_ok_toast">アザース！いっぱい食べや〜</string>
+    <string name="dialog_ng_toast">メニュー画面を表示致します</string>
 </resources>
+
+
+
+
+
