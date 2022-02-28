@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
     private val _from = arrayOf("name", "price")
     private val _to = intArrayOf(R.id.tvMenu, R.id.tvMenuPriceRow)
 
+    //ペーパーオブジェクトを生成するための設定で変数を定義している
+    private var _kaguId = -1
+    private var _kaguName = ""
+    private val _helper = DatabaseHelper(this@MainActivity)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -30,11 +35,15 @@ class MainActivity : AppCompatActivity() {
         val adapter = SimpleAdapter(this@MainActivity, _menuList, R.layout.row, _from, _to)
 
         lvMenu.adapter = adapter
-
-        lvMenu.onItemClickListener = ListItemClickListener()
-
+        lvMenu.onItemClickListener = ListItemClickListener() //ListItemClickListener　リストメニューを繋げるメソッド
         registerForContextMenu(lvMenu)
 
+    }
+
+    //ヘルパーオブイジェクトの解放
+    override fun onDestroy() {
+        _helper.close()
+        super.onDestroy()
     }
 
 
